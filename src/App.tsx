@@ -1,5 +1,17 @@
-import "./App.css";
+// src/App.tsx
 
-export default function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+import Navbar from "./components/NavBar";
+import MainContent from "./components/MainContent";
+import Footer from "./components/Footer";
+
+function App() {
+  return (
+    <div className="flex flex-col min-h-screen">
+      <Navbar />
+      <MainContent />
+      <Footer />
+    </div>
+  );
 }
+
+export default App;
