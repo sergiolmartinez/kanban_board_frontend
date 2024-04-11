@@ -1,13 +1,13 @@
 // src/App.tsx
 
-import Navbar from "./components/NavBar";
+import AppNavbar from "./components/NavBar";
 import MainContent from "./components/MainContent";
 import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="flex flex-col min-h-screen">
-      <Navbar />
+      <AppNavbar />
       <MainContent />
       <Footer />
     </div>
